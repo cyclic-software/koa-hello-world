@@ -1,6 +1,6 @@
-# Cyclic - Express Hello World
+# Cyclic - Koa Hello World
 
-This is a basic starter Koa app with:
+This is a basic starter Koa app
 
 ## Local Quick Start
 
@@ -14,7 +14,7 @@ If you want to setup your dev account and deploy with `git push`
   - Browser: `http://localhost:3000/some/path?q=query+one&q=second+query&single=value`
   - Command line: `curl -i -XGET "http://localhost:3000/cmd/line-curl"`
 - Deploy on Cyclic
-  - https://app.cyclic.sh/api/app/deploy/cyclic-software/express-hello-world
+  - https://app.cyclic.sh/api/app/deploy/cyclic-software/koa-hello-world
 
 ## Cyclic Runtime
 
