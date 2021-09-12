@@ -1,0 +1,21 @@
+{
+  "name": "koa-hello-world",
+  "version": "1.0.0",
+  "description": "This is a basic starter Expressjs app with:",
+  "main": "index.js",
+  "scripts": {
+    "serve": "nodemon --watch . --exec node --require dotenv/config server.js",
+    "start": "node --require dotenv/config server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.13.1"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.12"
+  }
+}
