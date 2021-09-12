@@ -1,8 +1,8 @@
 {
   "name": "koa-hello-world",
-  "version": "1.0.0",
-  "description": "This is a basic starter Expressjs app with:",
-  "main": "index.js",
+  "version": "0.0.1",
+  "description": "This is a basic starter Koa app",
+  "main": "server.js",
   "scripts": {
     "serve": "nodemon --watch . --exec node --require dotenv/config server.js",
     "start": "node --require dotenv/config server.js",
